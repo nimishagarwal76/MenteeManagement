@@ -70,6 +70,7 @@
   font-family:fantasy;
   font-size:x-large;
   text-transform:uppercase;
+  border-right:50px;
  }
  .edit{
      float:right;
@@ -83,6 +84,21 @@
 .delete{
     float: right;
     background: #f97229;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+    margin-right:5px;
+    font-family:Tahoma
+}
+.para{
+  margin-top:7px;
+  margin-bottom:0px;
+  font-family:Tahoma;
+/*   margin-right:60%; */
+  }
+.down{
+    float: right;
+    background: #aeb15d;
     padding: 6px;
     border-radius: 4px;
     color: white;
