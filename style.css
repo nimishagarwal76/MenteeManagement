@@ -96,6 +96,11 @@
   font-family:Tahoma;
 /*   margin-right:60%; */
   }
+  .rollno{
+    margin-top:7px;
+  margin-bottom:0px;
+  font-family:Tahoma;
+  }
 .down{
     float: right;
     background: #aeb15d;
@@ -142,19 +147,28 @@ display: none;
 }
 .input-n{
   float:left;
-  width:40%;
+  width:30%;
   border-radius:7px;
   padding:5px;
   margin-top:10px;
 }
 .input-r{
   float:right;
-  width:40%;
+  width:22%;
   border-radius:7px;
   padding:5px;
   margin-top:10px;
   margin-right:5%;
 
+}
+.input-roll{
+/*    float:left; */
+  width:30%;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+  margin-right:2.5%;
+  margin-left:2.5%;
 }
 .input-c{
   width:93%;
