@@ -64,7 +64,7 @@
  }
  #menteelist li:hover{
      border-color:#9361bf;
-     background:#eee;
+/*      background:#eee; */
  }
  .name{
   font-family:fantasy;
@@ -74,7 +74,7 @@
  }
  .edit{
      float:right;
-     background: #3bfd42;
+     background: #f0fd3b;
     padding: 6px;
     color: white;
     margin-right:5px;
@@ -114,7 +114,7 @@
     background:#f70707
 }
 .edit:hover{
-background:#1fc500;
+background:orange;
 }
 .rating{
 font-size:medium;
@@ -182,4 +182,117 @@ display: none;
 margin-top:5px;
 
 
+}
+/* media queries */
+@media screen and (max-width:450px)
+{
+  .rollno{
+    display:block;
+    width:90%;
+    float:left;
+  }
+  .name{
+    display:block;
+    width:90%;
+    float:none;
+  }
+  .down
+  {
+    display:block;
+    width:40%;
+    float:left;
+    margin-bottom:1%;
+  }
+  .para
+  {
+    display:block;
+    width:40%;
+    float:left;
+  }
+  .edit{
+    display:block;
+    width:50%;
+    float:none;
+    margin-bottom:1%;
+  }
+  .rating{
+    display:block;
+    width:10%;
+    float:right;
+    margin-bottom:1%;
+/*     margin-right:30%; */
+/*     margin-top:3%; */
+  }
+  .delete{
+    display:block;
+width:50%;
+    float:none;
+      margin-bottom:1%;
+  }
+   .collapse{
+    display:none;
+width:90%;
+    float:left;
+      margin-bottom:1%;
+  }
+
+  .input-n{
+/*   float:left; */
+  width:80%;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+}
+.input-r{
+  float:left;
+  width:80% ;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+/*   margin-right:5%; */
+margin-left:0.7%;
+
+}
+.input-roll{
+/*    float:left; */
+  width:90% ;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+/*   margin-right:2.5%; */
+  margin-left:0.7%;
+}
+li{
+  display: grid;
+}
+}
+@media screen and (max-width:700px)
+{
+  
+  .input-n{
+/*   float:left; */
+  width:90%;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+}
+.input-r{
+  float:left;
+  width:90% ;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+/*   margin-right:5%; */
+margin-left:0.7%;
+
+}
+.input-roll{
+/*    float:left; */
+  width:90% ;
+  border-radius:7px;
+  padding:5px;
+  margin-top:10px;
+/*   margin-right:2.5%; */
+  margin-left:0.7%;
+}
 }
